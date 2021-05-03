@@ -13,7 +13,6 @@ export default function Home() {
       
       <footer className="site-footer">
         <span className="site-footer-owner"><a href="https://github.com/EJBEAN2op/Radial-Bot">KR Genie</a> is maintained by <a href="https://github.com/EJBEAN2op">Bunkerbots Team</a>.</span>
-
       </footer>
 
     </section>
