@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Home() {
   
    return (
@@ -6,6 +7,7 @@ export default function Home() {
       <h1 className="project-name">KR Genie</h1>
       <h2 className="project-tagline"></h2>
       <a href="https://discord.com/oauth2/authorize?client_id=834310297451233290&scope=bot&permissions=101440" className="btn">Invite</a>
+      <Link href="/docs"><a className="btn">Docs</a></Link>
       
     </section>
 
