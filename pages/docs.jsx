@@ -1,8 +1,7 @@
-
-// T jyt go to app.js for a 
+import React from 'react';
 
 export default function Docs() {
     return (
         <p> Docs are incomplete! </p>
-    )
+    );
 }
