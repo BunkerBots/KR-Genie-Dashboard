@@ -4,7 +4,7 @@ import React from 'react';
 import '../styles/main.css';
 import { ThemeProvider } from 'theme-ui';
 import theme from '../theme';
-import Nav from '../src/components/nav';
+import Nav from '../src/components/Nav';
 
 
 // eslint-disable-next-line react/prop-types

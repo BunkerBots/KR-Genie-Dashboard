@@ -12,8 +12,9 @@ export default function Home() {
                 <div style={{ flex: 1 }}>
                     <Image src="/images/logo.png" alt="logo" height={240 / 2} width={207 / 2} />
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                        <a href="https://discord.com/oauth2/authorize?client_id=834310297451233290&scope=bot&permissions=101440" className="btn">Invite</a>
+                        <Link href="https://discord.com/oauth2/authorize?client_id=834310297451233290&scope=bot&permissions=101440"><a className="btn">Invite</a></Link>
                         <Link href="/docs"><a className="btn">Docs</a></Link>
+                        <Link href="https://github.com/BunkerBots/KR-Genie"><a className="btn">Source Code</a></Link>
                     </div>
                 </div>
 
