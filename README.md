@@ -2,10 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This project uses `yarn` and `next.js`, you might get different results with npm.
+Use node version >=15 ( Older versions might work but not tested )
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Install `yarn` globally and run `yarn .` to install dependencies.
+
+- Start the next server with `yarn dev`.
+
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
