@@ -16,7 +16,7 @@ const Nav = () => (
             <Link href="/">
                 <a sx={
                     {
-                        fontWeight: 'bold', fontSize: 4, cursor: 'pointer', color: 'highlight',
+                        fontWeight: 'bold', fontSize: 4, cursor: 'pointer', color: 'highlight', marginLeft: 10,
                     }
                 }
                 >

@@ -91,5 +91,7 @@ module.exports = {
         'switch-colon-spacing': 'error',
         yoda: 'error',
         'react/jsx-indent': [2, 4],
+        'react/button-has-type': 0,
+        'react/jsx-indent-props': 0,
     },
 };
