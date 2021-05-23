@@ -1,11 +1,11 @@
 {
   "name": "kr-genie-website",
   "version": "0.1.1",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start",
     "predeploy": "next build && next export && touch out/.nojekyll",
     "deploy": "gh-pages -d out -t true"
   },
