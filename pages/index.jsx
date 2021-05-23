@@ -17,23 +17,13 @@ export default function Home() {
                         <Link href="https://github.com/BunkerBots/KR-Genie"><a className="btn">Source Code</a></Link>
                     </div>
                 </div>
-
-
             </section>
-
             <section className="main-content">
-
                 <footer className="site-footer">
                     <span className="site-footer-owner">
-                        <a href="https://github.com/BunkerBots/KR-Genie">KR Genie</a>
-                        {' '}
-                        is maintained by
-                        {' '}
-                        <a href="https://github.com/Bunkerbots">Bunkerbots Team</a>
-                        .
+                        <a href="https://github.com/BunkerBots/KR-Genie">KR Genie</a> is maintained by  <a href="https://github.com/Bunkerbots">Bunkerbots Team</a>.
                     </span>
                 </footer>
-
             </section>
         </div>
     );

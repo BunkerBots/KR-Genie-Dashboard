@@ -1,6 +1,7 @@
 {
   "name": "kr-genie-website",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "license": "GPLv3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,15 +14,18 @@
     "next": "10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "swr": "^0.5.6",
     "theme-ui": "^0.7.5"
   },
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "prettier": "^2.2.1"
   }
 }

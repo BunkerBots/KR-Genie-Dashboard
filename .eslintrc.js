@@ -7,6 +7,8 @@ module.exports = {
     extends: [
         'plugin:react/recommended',
         'airbnb',
+        "prettier", 
+        "prettier/react"
     ],
     parserOptions: {
         ecmaFeatures: {
@@ -93,5 +95,6 @@ module.exports = {
         'react/jsx-indent': [2, 4],
         'react/button-has-type': 0,
         'react/jsx-indent-props': 0,
+        'react/rule-of-hooks': 2,
     },
 };
