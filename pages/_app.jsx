@@ -13,7 +13,8 @@ export default function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider theme={theme}>
             <Head>
-                <link rel="shortcut icon" href="/favicon.ico" />
+                <title> BunkerBots </title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
             <Component {...pageProps} />
