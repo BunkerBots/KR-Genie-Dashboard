@@ -8,5 +8,5 @@ Host vm
 
 cat ~/.ssh/config
 
-ssh vm "bash -s" < $GITHUB_WORKSPACE/scripts/update.sh # ssh action must set the vm to a valid config in sshconfig
+ssh vm "bash -l -s" < $GITHUB_WORKSPACE/scripts/update.sh # ssh action must set the vm to a valid config in sshconfig
 
