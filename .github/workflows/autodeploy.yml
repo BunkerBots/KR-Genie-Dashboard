@@ -1,0 +1,17 @@
+name: Auto Deploy
+
+on:
+  push:
+    branches: [ production ]
+
+jobs:
+  deploy-to-vm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash ${GITHUB_WORKSPACE}/scripts/deploy.sh
+        env: 
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          VM_ADDRESS: ${{ secrets.VM_ADDRESS }}
+
+        
