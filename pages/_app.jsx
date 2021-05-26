@@ -8,13 +8,12 @@ import theme from '../theme';
 import Nav from '../src/components/Nav';
 
 
-// eslint-disable-next-line react/prop-types
 export default function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider theme={theme}>
             <Head>
                 <title> BunkerBots </title>
-                <link rel="shortcut icon" href="/favicon.ico" />
+                <link rel="shortcut icon" href="/favicon.ico?v=2" />
             </Head>
             <Nav />
             <Component {...pageProps} />
