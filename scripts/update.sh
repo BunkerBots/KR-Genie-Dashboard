@@ -1,3 +1,4 @@
+source ~/.bashrc
 cd KR-Genie-Dashboard/
 git pull
 yarn

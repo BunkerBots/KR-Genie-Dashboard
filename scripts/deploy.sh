@@ -1,9 +1,12 @@
-mkdir -p ~/.ssh/
 
-echo "$PRIVATE_KEY" > ~/.ssh/key.pem
-chmod 600 ~/.ssh/key.pem
+echo " 
+Host vm
+    Hostname $VM_ADDRESS
+    User $VM_USER
+    IdentityFile ~/.ssh/key.pem
+" >> ~/.ssh/config
 
-ssh-keyscan -H $VM_ADDRESS > ~/.ssh/known_hosts
+cat ~/.ssh/config
 
-ssh -i ~/.ssh/key.pem -o UserKnownHostsFile=~/.ssh/known_hosts -tt ku@$VM_ADDRESS "bash -s" < $GITHUB_WORKSPACE/scripts/update.sh
+ssh vm "bash -s" < $GITHUB_WORKSPACE/scripts/update.sh # ssh action must set the vm to a valid config in sshconfig
 
