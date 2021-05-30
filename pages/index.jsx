@@ -21,7 +21,7 @@ export default function Home() {
             <section className="main-content">
                 <footer className="site-footer">
                     <span className="site-footer-owner">
-                        <a href="https://github.com/BunkerBots/KR-Genie">KR Genie</a> is maintained by  <a href="https://github.com/Bunkerbots">Bunkerbots Team</a>.
+                        <a href="https://github.com/BunkerBots/KR-Genie">KR Genie</a> is maintained by the <a href="https://github.com/Bunkerbots">BunkerBots team</a>.
                     </span>
                 </footer>
             </section>
