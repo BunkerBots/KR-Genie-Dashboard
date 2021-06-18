@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 This project uses `yarn` and `next.js`, you might get different results with npm.
 Use node version >=15 ( Older versions might work but not tested )
 
-- Install `yarn` globally and run `yarn .` to install dependencies.
+- Install `yarn` globally and then run `yarn` or `yarn install` to install dependencies.
 
 - Start the next server with `yarn dev`.
 
